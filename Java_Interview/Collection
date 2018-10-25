@@ -1,0 +1,4 @@
+Collection
+
+
+Collections.frequency(listName, "objectName"); --> gives frequency of 1 element

@@ -1,0 +1,128 @@
+						========  AGILE  ========
+
+Sprint Planning-->Sprint Backlog-->Sprint==> >Review 
+											 >Retrospective
+AGILE - small deliverable/ be ready for a change
+"
+1. Product Backlog - PO create and prioritize list of feature known as users stories
+(way of describing of feature set:-As "an Amazon user"; 
+		 					   	  -I "should be able to login"; 
+							   	  -So, that "I can buy stuff online";)  
+ can change by priority with every sprint.
+ actually this is entire application that we want to develop.
+
+2. BurnDown Chart - show the progress during sprint(in Jira);
+
+3. Acceptance criteria --> condition, criteria that mark the story complete. Basicly User Story.
+	-Given the renter is on the search page
+	-When the renter searches for apartments
+	-Then the results should display the available apartments
+"
+
+				    	
+
+				    	====== Ceremonies ======
+
+
+1) Sprint Grooming - we get to know what are we going to build in particular sprint. 1 hour
+ ------------------------------------
+2) Sprint Planning - PO/SM/TEAM meet to discuss the users stories
+ and estimate the releavity sizes. We go through every item 
+ and estimate effort for devel. and test. PO prioritize the user stories for next sprint
+ and assign tasks(desided by team),doing pointing. 8 point/user story, capacity 45 p.
+ 6 hours per person/day; 30 h -> 2 weeks sprint. We have a team calendar(notes for hollyday)
+ ------------------------------------
+3) Daily Scrum - brief Stand Up Meeting, TEAM discuss what we have complited 
+ since the previous meeting, what we working on, what we planning to do
+ tomorrow, any blocker or need help. 15-20 minutes.|can be -> Conference call|
+ + if i have an issue and some one can help me with I am doing the other meeting
+   to resolve the problem.(It can be at any place or over the phone or ZOOM App/Skype)
+   [explenation meeting requirements are not clear -> TEAM_LEAD or BA helps]
+ ------------------------------------
+4) Demo should include the following:
+-Introduction of the team and their roles
+-Work distribution between team member sand it scompletion
+-Impediments/Issues and how you worked on resolving them
+-Improvements you can do as a team for better results
+ ------------------------------------
+5) Sprint Retrospective - PO/SM/TEAM attends this meeting. We discuss what went well, 
+ what went wrong or missing, we talk about the ways to improve, we try to find different
+  ways or tactics. It takes 60 - 90 minutes. We have a board with 'Stop, Continue, Start'
+ ------------------------------------
+6) Sprint Review - in the END of sprint TEAM demonstrate complited work to the PO from 
+ costumers perspective. We have a demo what we have done. Sometimes stakeholders may
+ attend the meeting. 2 hours.
+ ------------------------------------
+7) Teams meeting - once a month, PO discuss the project
+
+"
+
+ 							
+
+
+ 							===== Type Of Testing ======
+
+
+
+Smoke Test - done to make sure that software under testing is ready or stable for further testing. 
+---------------------------------
+ - testing a whole application. Simply means do new features break old ones.
++make sure that whole component works properly even after adding components to the complete program.
+---------------------------------
+Functional Testing - testing does everything behave as expected and described in documentation.
+---------------------------------
+Performance Testing - <1000 users the same time>
+---------------------------------
+End-to-End Testing - testing back end and UI or different functionality as one test.
+---------------------------------
+Integration Testing - testing check if the units work well together.
+---------------------------------
+Usability Testing - testing are the user interfaces easy to operate and understand.
+---------------------------------
+Happy Path Testing - test an application successfully on a positive flow.
++it does not look for negative or error conditions. The focus is only on the valid and positive inputs
++through which application generates the expected output.
+---------------------------------
+Negative Testing - validate if system or app breaks. A negative testing technique is performed using 
++incorrect data. it validates that if the system throws an error of invalid input and behaves as expected
+---------------------------------
+Verification TEsting - mostly doing by developers to check are they build right things...
++what is expected result.
+---------------------------------
+Validations Testing - mostly by testers, are we doing in a right way...
+"
+
+
+
+Verification - to make sure the product behaves the way we want it to.
+Validation - the product is build as per custumer requirements is it everything 
+on a correct place
+
+Definition of Ready  - if the user story clear to developers and testers. PO job,
+ he needs to make it understandable
+Definition of Done (DOD) - all acceptance criteria is done, all user stories fully tested
+Acceptance criteria - comes from bussines, how they want to see functionality,requirement
+document for user story
+
+Sprint 2 weeks = 20 user stories - 80 points
+
+Capacity -> how many resources in your team
+
+
+Velocity -> average points were complited during the 1 sprint
+
+'
+Test plan -> every sprint
+
+
+
+
+
+
+
+
+
+
+
+
+

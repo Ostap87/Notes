@@ -1,0 +1,39 @@
+
+
+//REST Assured API
+import static io.restassured.RestAssured.*;
+<dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>3.1.0</version>
+      <scope>test</scope> --can be used only under 'src/test/java'
+</dependency>
+________________________________________________________________________________
+//JDBC
+<repositories>
+		<repository>
+			<id>oracle</id>
+			<url>https://datanucleus.org/download/maven2</url>
+		</repository>
+</repositories>
+
+<dependency>
+		<groupId>oracle</groupId>
+		<artifactId>ojdbc6</artifactId>
+		<version>11.2.0.3</version>
+</dependency>
+________________________________________________________________________________
+//jUnit
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <scope>test</scope>
+</dependency>
+_______________________________________________________________________________
+//Jackson Databind
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.9.6</version>
+</dependency>

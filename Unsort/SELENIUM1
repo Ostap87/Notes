@@ -1,0 +1,69 @@
+					SELENIUM
+
+				***LOCATORS***
+
+!!!select option in SWD
+xPath - locator that selenium provides, manipulated
+
+Parameterization
+WebElement - class can store locate web element
+
+WebElements - returns list/collections of elements
+
+// ---> import static org.testng.Assert.*;
+Assert vs Verify
+
+if Assert step fails, execution stops at that point.
+if Verify step fails, it will report a fail but will continue execution
+
+SoftAssert softAs = new SoftAssert();
+
+in the end of code --> softAs.assertAll();
+
+=====================
+
+
+Soft Assertions(or verifications) , Hard Assertions(or assortion)
+Comes from(TestNG) class framewwork/ library and it has different types of assertions methods:
+
+ex: assertEquals(actualResult, expectedResult);
+	assertTrue(boolean);
+	assertFalse(boolean);
+
+Hard assertions ---> terminates the test execution when it is fails
+It only terminates the execution of @Test annotation
+
+
+SoftAssert ---> class thet comes from testing and it handles the soft assertions.
+Soft assertions ---> does not terminate the test execution even it fails. It simly memorizes which assertion failed. 
+AssertAll ==> a method comes from SoftAssert class and it reports all the memorized failures.
+Unless you use assertAll method explicitly in the end of the test it does not report which
+ one fail
+
+======================================================================
+1. Utility classes(creating and using) -> generic staff
+2. Report -> 
+3. 
+
+
+
+
+
+==================
+Table
+<table> --> is used to create the table
+<tr> --> is table row
+<td> --> is table data(colomn)
+==================
+
+Robot class from Java API
+
+Robot r = new Robot();
+r.mouseWheel(int);
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+							=========== TESTNG ===========
+							     Test next generation
+TestNG - unit test framework for 
+- designing test cases in systematic way;
+- generate html reports;
+- prioritize with different annotations;
+- dependencies features;
+- grouping;
+- data provider 
+
+----------------------------------------------
+@Test(.......)
+- priority=1 -> prioritize execution of test;
+- groups="SmokeTest" -> grouping of test;
+- dependsOnMethod="loginTest" -> means if method loginTest passed then this methog
+								 will be execute
+- timeOut=2000 -> test will execute 2 seconds
+- expectedExceptions=NumberFormatException.class -> handle exceptions in TestNG
+
+
+----------------------------------------------
+
+Assertions
+Assert.
+   - assertEquals(...,...);
+   - assertTrue(...);

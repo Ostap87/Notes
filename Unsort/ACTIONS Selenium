@@ -1,0 +1,44 @@
+ACTIONS Selenium
+
+--> Hover over --> WebElements that will be displayed when hover on certain element wont be visible
+
+==> Action class -> moveToElement() -> takes WebElement type
+Mouse events:
+
+- Double click
+- HoverOver
+- Drag and drop(when moving one object and droping inside other)
+- Context click(right click)
+- Move
+
+
+Syntax
+Actions name = new Actions(driver);
+name.doubleClick();
+name.doubleClick().perform();
+
+============================
+ dragAndDrog().perform();
+ clickAndHold().perform();
+ clickAndHold().moveToElement().perform();
+ build.perform();
+
+============================
+How to create own exceptions?
+Create a class and extend to exceptions class 
+ 
+======================================================================
+Value can be selected by:
+-salectByValue();
+-selectByVisibleText();
+-selectByIndex().
+
+Select sel = new Select(d.findElement(By.id("....."))).selectByIndex(1); 
+
+
+
+
+
+
+
+

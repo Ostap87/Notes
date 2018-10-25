@@ -1,0 +1,106 @@
+Git - software tool whose helps to track all the history of modifications
+
+cd --> opener
+pwd - shows location 
+ls -la --> shows everything(folders/files) on computer
+touch <fileName>.<txt/jat/html...> extention --> adding file to folder
+git init --> create .git file in directory
+git config --global user.name/email 'Oleksandr/ostap4info@gmail.com' --> info for git which displayed in GitHub
+git add <fileName.extention> --> adding file from local project to staging area
+git add *.txt --> adding all files .txt
+git add . --> adding all files
+git rm --cached <fileName.ex> --> removing file from local project to staging area
+git status --> chacking what we have in stage area
+git commit (type <i>) --> moving to local / general comment for git
+git commit -m 'some comments' --> details comment for git
+:wq --> going out from commit
+Branches
+git branch <anyName> --> creating a branch
+git checkout <branchName> --> switching between branches
+git branch -d <nameOfBranch> - deleting branch
+git merge login --> makes all files visible in master
+
+git log ---> info about any changes happened
+git remote <Location from GitHub> --> 
+git remote -v
+git push -u origin master --> pushing to 
+git pull origin master --> pulling file from remote to local
+git stash ---> stashing takes the dirty state of your working directory, so that you can repply later
+git stash list ---> Shows the list of the stashes you have made
+git stash apply ---> reapply the stash
+git stash reapply stash@{2} ---> if needs to reapply an older stash
+=========================================================================================
+
+1.	Find project in java using (cd/cd.. NameOfFolder)
+2.	git init ---> create git repository
+2.1.git status ---> start from here if some changes were done
+3. 	git add . ---> adding all files to stage area
+4.  git commit -m "some comments"---> needs to comment
+5. Creating new repository in GitHub with (likely same name as a projectName)+copy of 		address
+6.  git remote add origin +add address from GitHub
+7.	git branch <anyName> --> creating a branch if needs
+7.1.git checkout <branchName> --> switching between branches
+8.  git remote -v ---> check is origin it there
+9.  git push -u origin <branchName> ---> pushing file to GitHub
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+mkdir FolderName ---> creating new folder in directory
+cd Desktop ---> going to desktop
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+		<	CLONE from GitHub	>
+1.	Go to extention folder
+2.	git clone + add address from GitHub
+3.	rm -rf .git - removing git repository
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1. Create new branch and copy url repocitory
+2. go to terminal
+3. create a folder for location and go there
+4. git clone and paste url of repocitory
+5. point eclipse to our folder ->file->switch workspace->other->ourFolder
+6. then import if needs
+7. Team->Switch to->
+
+- commit/added/commit and Push botton on bottom
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+GIT Practice
+
+
+
+1. Clone the repository(make a copy of URL)
+2. Go to terminal git clone URL
+  - Go to any git folder where cloned file must be located
+3. git add. -> git commit -m"....." -> 
+	-> git config --global user.name "Oleksandr Ostapchuk" ->
+	-> git config --global user.email "ostap@gmail.com"  
+	-> git config --list/is it worked/
+4. creating new branch -> git branch nameOfBranch->
+	-> git checkout <branchName> 
+5.- git push origin branchName
+
+
+git push --set-upstream origin branchName -> auto creating branch in GitHub
+-----------------------------------------------------------------
+GIT through ECLIPSE
+Copy repository
+go to eclipse -> import -> Project GIT -> clone URI -> add userName/password ->
+	-> next -> next -> Import as general project ->
+
+rightClick -> Team -> Switch to -> new Branch -> 
+Team -> commit -> 
+-----------------------------------------------------------------
+
+After done with code changes
+1. git pull origin master
+2. git add.
+3. git commit
+4. git push
+5. go my branch and doing pull request and click create new pull request
+
+
+
+
+
+

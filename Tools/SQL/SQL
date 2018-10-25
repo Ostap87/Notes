@@ -1,0 +1,140 @@
+					=========== SQL describtion ===========
+
+SQL -> structured query language
+
+Query to show all countries:
+ SELECT * FROM countries;
+
+Database:
+
+*relational databases:
+	Oracle 11g, 12 / MySQL / MS SQL Server / IBM DB2 / Sybase
+*non-relational databases:
+	MongoDb / Apache / CouchDB / ArangoDB / BaseX / Clusterpoint /
+	Couchbase / Cosmos DB / IBM Domino / MarkLogic / MongoDB / 
+	OrientDB / Qizx / RethinkDB.
+
+Every application has a database.
+Database is a place where data is stored in an organized manner.
+Security, performance.
+
+Every table in database has columns.
+
+Every table in database has a unique column.
+Unique -> does not contain duplicates
+
+Primary Key -> is a unique column in a database table.
+
+
+			<DATA TYPES IN SQL.>
+
+Columns in SQL can accept only specific data type
+Number -> whole numbers
+number(9) -> can accept numbers up to 9 digits.
+number(5,3) ->
+
+char -> characters/ strings
+varchar2 -> also characters. used for varying length data.
+if you put less than 50 characters ,database will only take that length memory.
+
+
+NULL -> inserting data into this column is optional
+NOT NULL -> mandatory to enter data to this column
+
+Describle departments;
+--------------- -------- ------------ 
+DEPARTMENT_ID NOT NULL NUMBER(4) 
+DEPARTMENT_NAME NOT NULL VARCHAR2(30) 
+MANAGER_ID NUMBER(6) 
+LOCATION_ID NUMBER(4)
+
+
+Describe locations;
+-------------- -------- ------------ 
+LOCATION_ID NOT NULL NUMBER(4) 
+STREET_ADDRESS VARCHAR2(40) 
+POSTAL_CODE VARCHAR2(12) 
+CITY NOT NULL VARCHAR2(30) 
+STATE_PROVINCE VARCHAR2(25) 
+COUNTRY_ID CHAR(2)
+
+PRIMARY KEY
+-> every table has a primary key, unique
+
+FOREIGH KEY
+-> when a column is used and that is primary key in another table
+
+When a column is a foreign key, only data from primary key table can be used.
+
+RDBMS:
+RELATIONAL DATABASE MANAGEMENT SYSTEM
+-------------------------------------
+
+We call them relational because tables in that database are
+related using primary and foreign key relationship.
+Oracle, MySql
+
+AMAZON EC2 SERVER AND INSTALLED ORACLE RDBMS.
+We are connecting to that database using SQL developer
+-----------------------
+
+DATABASE SCHEMA -> is a chart that shows all tables and how they are related to one another.
+One to Many relation -> One Department -> Many employees
+many to many relation -> 
+-----------------------
+
+Someone gave access to database. There is no schema.
+
+1) Display all tables.
+
+MySQL: show tables;
+Oracle: Select table_name from user_tables;
+Sybase
+IBM DB2
+MS SQL server
+
+2) Describe command to see columns and relations.
+
+Database is a storage for data
+In Database we have tables
+tables have columns and rows
+
+tables are related to one another using primary and foreign keys.
+
+Each table column can accept only pre-defined data types.
+
+------------------------------------------------------------
+AWS: EC2-> cloud machine.
+Amazon RDS -> for databases.
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+How do i know what data types are in my table?
+describe table_name;
+describe countries;
+------------------------------------------------------------
+Query to view all data in Employees table:
+SELECT * FROM employees;
+------------------------------------------------------------
+Query to show all countries:
+Select * From countries;
+------------------------------------------------------------
+
+------------------------------------------------------------
+
+------------------------------------------------------------
+
+------------------------------------------------------------
+
+------------------------------------------------------------
+
+
+
+
+
+
+
+
+

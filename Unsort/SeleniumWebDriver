@@ -1,0 +1,151 @@
+* Basic properties defined by developer to creat this edit box
+* ID/class/name - attributes
+* Locators supported by Selenium webDriver:
+	- ID
+	- ClassName
+	- Name
+	- LinkText
+	- xPath
+	- Css
+* Every object may not have ID/ClassName/Name/Xpath/CSS
+* numeratic ID can be dinamic(It's changing after refreshing the page - means useless)
+* Classes(value) should not have spaces - compound classes can not be accepted
+* Atribute must be unic. if it's duplicate selenium will run and identifice only first one
+* Multiple values Selenium identifies the first one - scans from top to left
+* You can generate xPath through browser tools
+* xPath cann't begin from /html - avoid it
+* Java does not allow to use double quotes(" "" ") in double quotes
+* $x("xPath") - method to check is it right xPath
+* $("CSS") - method to check is it right CSS Selector
+
+==================================================================
+
+* Syntax of xPath:
+	- //tagName[@attribute='value']
+	- //*[@attribute='value']
+	- //tagName[contains(@attribute='value')] --->(if value is dynamic)
+	- //tagName[contains(text(),'value')] ---> finding by text
+
+
+* Parent-child relationshipxPath:
+ 	How to traverse to sibling element using xPath
+--->//*[@attribute='value']/following-sibling::tagName[numberOfSibling]
+  	
+  	How to traverse back to Parent element from child using xPath
+--->//*[@attribute='value']/parent::tagName
+--->//tagName[@attribute='value']/../tagName
+==================================================================
+
+* Identifying objects with Text using xpath locators
+--->//*[text()='textIncludeSpaces']
+==================================================================
+* Syntax of CSS:	
+	- tagName[attribute='value']
+	- [attribute='value']
+	- tagName#ID
+	- #ID ---> be sure it is unic
+	- .className ---> be sure it is unic
+	- tagName.className
+	- tagName[attribute * ='value']
+==================================================================
+Handling Static dropdowns with Select webdriver API
+
+* Select s = new Select(d.findElement(by.id("qwerty")));
+		 s.selectByValue/Index/VisibleText(........);
+-------------------------------------------------------------------
+Handle Dynamic dropdowns with Webdriver API
+
+* if we have duplicate locators and need to click for the 1st and 2nd-
+just put 2nd xPath in <(My_xPath)[2]> Ex. (//span[@class='q2mpa'])[2]
+====================================================================
+Handling Checkboxes with webdriver API
+
+* After method (.....).click -> in next line use (.....).isSelected
+====================================================================
+Handling Radiobutton dynamically
+
+(.....).size ---> shows quantity of radioButtons
+(.....).get(i/1/2...9).click ---> choose and click any radButton
+(.....).getAttribute("value") ---> give us attribute
+====================================================================
+Handling Java Alerts using Webdriver API
+
+d.switchTo().alert().accept(); ---> accept Ok/Done/Yes
+d.switchTo().alert().dismiss();---> accept Cancel/No
+--------------------------------------------------------------------
+d.switchTo().alert().getText ---> grab alert text
+d.switchTo().alert().sendKeys---> give a text
+====================================================================
+Web Elements Validation
+
+(.....).isDisplayed ---> used when particular object is in code base
+but it is in visible mode or not
+--------------------------------------------------------------------
+(.....).size ---> if want to validate the object which is present in
+web page or code base
+--------------------------------------------------------------------
+(.....).isEnable()/Disable() ---> in what mode object is
+--------------------------------------------------------------------
+(.....).getText()
+====================================================================
+
+(...).sendKeys(Keys.TAB)  --->
+(...).sendKeys(Keys.ENTER)--->
+====================================================================
+Implicit Wait
+
+d.manage().timeouts().implicitlyWait(5, TimeUnit SECONDS);
+--------------------------------------------------------------------
+Explicit Wait
+
+WebDriverWait d = new WebDriverWait(driver, 20)
+d.util(ExpectedConditions.visibilityOfElementLocated(anyLocator))
+====================================================================
+Handling Ajax/Mouse Interactions
+
+Actions a = new Actions(driver);
+a.moveToElement((.....)).build().perform()
+--------------------------------------------------------------------
+Actions class
+
+- Type all text capital(if needs <doubleClick>)
+a.moveToElement((.....)).click().keyDown(Keys.SHIFT).sendKeys("hello")
+<.doubleClick>.build().perform();
+====================================================================
+Handling Multiple Windows
+
+d.switchTo().window()
+
+Set<String> idsName = new d.getWindowHandles;
+Iterator<String> it = new idsName.iterator();
+String parentId = it.next();
+String childId = it.next();
+d.switchTo().window(childId);
+==================================================================== 
+How to handle Frames
+
+d.switchTo().frame((.....)) ---> by valye
+--------------------------------------------------------------------
+Actions a = new Actions(driver);
+a.dragAndDrop(source, target).build().perform();
+a.doubleClick().perform();
+d.switchTo().defaultContent();
+a.dragAndDrog().perform();
+a.clickAndHold().perform();
+a.clickAndHold().moveToElement().perform();
+a.moveToElement(d.....).build().perform();
+a.moveToElement(d.....)contextClick().build().perform(); 
+... build.perform(); ---> for chaining
+====================================================================
+How to open the links in Separate Tabs - Optimized solution
+
+String clickOnTabLinks = Keys.chord(Keys.CONTROL, Keys.ENTER)
+
+
+
+
+
+
+
+
+

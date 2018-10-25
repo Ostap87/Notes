@@ -1,0 +1,59 @@
+		Sprint ending/No realesy
+		
+On sprint review our team demonstrates what we have accomplished during the Sprint. We have a demo what we have done, all members of our scrum team attends this meeting and sometimes stakeholders might attend sprint review too. It is usually last  for 1,5houlf.
+
+
+
+
+release - product goes to the costumer
+
+Deffenition of done
+
+
+1. acceptance criteria is matching with expected result, and there is no bag
+2. tested
+3. Test results reviewed with business
+4. We can demo it afterwards
+5. No diffects	
+
+		Deffenition of ready
+
+1. 
+
+
+		Retro meeting
+
+
+Sprint Retrospective Meeting: My entire team attends this meeting. We discuss what went well, what well wrong or missing, we talk about the ways to improve, we try to find different ways or tactics. It takes 30 - 60 minutes.		
+
+	- planning was good
+	- estimation done properly
+	- communication between team members
+	- pointing was done properly
+	- we were able to cover all test cases
+	- streatch goal was achieved
+
+======================================================
+
+developer tester communication relating the deffects
+more efficient stand ups
+
+======================================================
+What do we need to improve:
+
+	- estimation
+	- communication needs to be improved
+	- proper sprint planning
+
+
+======================================================
+
+		Test planning
+	- taking part in test scenario creation
+	- maintaining testing freamework(ask deveropers to add some link in code...)
+	- creating page object models
+	- test scenario review
+	- test data creation
+
+		Test execution
+	- reporting	

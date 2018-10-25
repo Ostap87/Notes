@@ -1,0 +1,49 @@
+Questions:
+
+- RTM - reqirement tracebility matrix
+- severity and priority
+- last 3 technical challenges
+- consrtuctor vs method
+- drop down box
+- overloading vs overriding vs hiding
+- extend report
+- attribute and data validation in api
+- confluence -> storing of API documentatin			case POSTGRES:
+				connection = DriverManager.getConnection(ConfigurationReader.getProperty("reservationDbUrl"),
+														ConfigurationReader.getProperty("reservationDbUsername"),
+														ConfigurationReader.getProperty("reservationDbPassword"));
+
+
+
+
+
+writing tc for 2 days and importing to Jira
+pear review 3rd day of sprint
+Start execution
+happy path scenario -> automate
+nagative path scenario -> manual testers busy with negative 
+When we automate nagative scenario 
+
+
+
+• How do you describe yourself? Tester? Automation engineer?
+• Are you an expert with back end testing and tell me more how did you work with that in you projects?
+• Data transformation and testing it?
+• How to test financial calculation?
+• What is the difference between inner class and subclass?
+• How access your code? Encapsulation?
+• What is a singleton class?
+• Difference between static and dynamic in java?
+•What kind of loops do you use in your projects?
+• continue and break statement?
+• ternary operators?
+• What is the package?
+• Why is string immutable?
+• What is the testing harness?
+• What are garbage collections?
+• What kind of package do you use while working with cucumber?
+• What is the primary key in SQL?
+• What about the value in primary key?
+• Inner join and outer join?
+• Have you ever worked with stored procedure sql?
+• Union or join which one do you prefer to use?

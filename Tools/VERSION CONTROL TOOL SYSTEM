@@ -1,0 +1,51 @@
+			VERSION CONTROL TOOL SYSTEM
+
+*Type of Version Control Tools
+	SVN - Centralized Version control System - source code can be change from the side
+	GIT - Distributed Version control System - got a copy/ cann't be changed
+
+********************************************
+
+git init --> initializing the git repository
+ls -la --> Mac to show all files and folders
+rm -rf .git --> to remove the  .git folder --> remove git repositore from Mac
+git help --> git command
+git add <filename> --> to add file from working directory to staging area
+git add -A --> adding all untracked files to stagin area
+git commit -m"msg" --> move from staging to local repo
+give message and click escape and write ":wq"+enter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

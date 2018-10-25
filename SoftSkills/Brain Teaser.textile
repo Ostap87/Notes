@@ -1,0 +1,33 @@
+Brain Teaser Job Interview Questions
+
+1. You have a 3 gallon jug and 5 gallon jug, how do you measure out exactly 4 gallons? 
+====================================================================
+
+2. There are three boxes, one contains only apples, one contains only oranges, and one contains both apples and oranges. The boxes have been incorrectly labeled such that no label identifies the actual contents of its box. Opening just one box, and without looking in the box, you take out one piece of fruit. By looking at the fruit, how can you immediately label all of the boxes correctly? 
+====================================================================
+
+3. Take a random pile of coins. If I tell you how many coins are heads and how many coins are tails, can you separate the pile into two piles with the same number of heads in each. And can you do this with your eyes shut?
+====================================================================
+
+4. You’re in a room with three light switches, each of which controls one of three light bulbs in the next room. You need to determine which switch controls which bulb. All lights are off to begin, and you can’t see into one room from the other. You can inspect the other room only once. How can you find out which switches are connected to which bulbs? 
+====================================================================
+
+5. There are 20 different socks of two types in a drawer in a completely dark room. What is the minimum number of socks you should grab to ensure you have a matching pair?
+====================================================================
+
+6. If you have a square room with no roof, and you had four flagpoles you had to plant on the walls so that each flagpole touched two walls, how would you do it?
+====================================================================
+
+7. Given 9 balls all of which weigh the same except for one, what is the minimum of weighings necessary to find the ball weighs more (or less)?
+====================================================================
+
+8. You have 2 pieces of rope, each of which burns from one end to the other in 30 minutes (no matter which end is lit). If different pieces touch, the flame will transfer from one to the other. You cannot assume any rope properties that were not stated. Given only 1 match, can you time 45 minutes? 
+====================================================================
+
+9. You have two sand timers with you. One can measure 7 minutes and the other sand timer can measure 11 minutes. This means that it takes 7 minutes for the sand timer to completely empty the sand from one portion to the other. You have to measure 15 minutes using both the timers. How will you measure it ?
+====================================================================
+
+10.A farmer wants to cross a river and take with him a wolf, a goat, and a cabbage. There is a boat that can fit himself plus either the wolf, the goat, or the cabbage. If the wolf and the goat are alone on one shore, the wolf will eat the goat. If the goat and the cabbage are alone on the shore, the goat will eat the cabbage.
+How can the farmer bring the wolf, the goat, and the cabbage across the river?
+====================================================================
+

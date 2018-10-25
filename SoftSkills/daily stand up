@@ -1,0 +1,24 @@
+
+	daily stand up
+	10-11 check emails,pending work
+	11-11:30 planning meeting,PO will walk us though product backlog
+	1-3:30 everyone is focused on their work,tasks,this 3 test cases
+	3:30-4 daily check point meeting,I could not do it,if someone need help 15-20 min
+	
+	Most of the Prod deployments are done late-night when the chances of the environment being hit by end users are less.
+	
+	Before:
+	Ensure the test cases are reviewed and approved
+Ensure the test team is available and resource planning is completed
+Ensure the test data needs are identified
+
+	After:
+	After deployment, the very first thing we as a QA team do is to get started with our Sanity test. But before we start our sanity test, we should ensure following has been taken care ñ
+
+The QA team should have received notification from the deployment team about successful deployment and ready for QA.
+The QA team should keep a track of the deployed build.
+Make sure the QA team has the list of changes successfully deployed and also of items not deployed even if they were planned. It may happen that the deployment team couldnít deploy due to missing details etc.
+	
+	#3. Test team size is a not constant from the beginning of the project. When the test plan is initiated the team might just have a Team lead. During the test design phase, a few testers come on board.  Test execution is the phase when the team is at its maximum size.
+	
+	

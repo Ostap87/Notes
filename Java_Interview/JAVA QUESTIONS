@@ -1,0 +1,73 @@
+JAVA QUESTIONS
+
+Java coding challenges from early birds
+
+        1.Write a method which prints out the numbers from 1 to 30
+        but for numbers which are a multiple of 3, print “FIN” instead of the number
+        and for numbers which are a multiple of 5, print “RA” instead of the number
+        for numbers which are a multiple of both 3 and 5, print “FINRA” instead of the number.
+
+        Hint:
+        for(int i=1; i<31; i++){
+           if(i%3==0&&i%5==0){
+
+           }
+           and so..
+        }
+        use %
+        for loop
+        if statement
+        Print
+
+
+        2. Write a method that will remove all dupplicates from string
+        removeDup(“abccccccc”); -> “abc”
+
+        Hint:
+        Use: empty ArrayList
+
+        3. Write a method that will count number of each char in a String
+        countChar(“abbc”); -> {a=1, b=2, c=1}
+
+       
+
+        4. Write a method that will print only unique letters of given string
+        printUnique(“aabbc”) -> “c”
+        printUnique(“aabc”) -> “bc”
+
+        5. Write a method which prints out the numbers from 1 to 30
+        but for numbers which are a multiple of 3, print “FIN” instead of the number
+        and for numbers which are a multiple of 5, print “RA” instead of the number
+        for numbers which are a multiple of both 3 and 5, print “FINRA” instead of the number.
+
+        6. Method that prints numbers in fibonacci sequence in java. In fibonacci series,
+        next number is the sum of previous two numbers for example 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 etc.
+        The first two numbers of fibonacci series are 0 and 1. Method will accepts one int as arg.
+        fibonacci(5); -> 0, 1, 1, 2, 3
+        fibonacci(8); -> 0, 1, 1, 2, 3, 5, 8, 13,
+
+        7. Write me a method which can identifies given number is even or odd
+        identify(5) -> print “Odd”
+        identify(6) -> print “Even”
+
+        8. Write a method that returns string version of int
+        convert(4321) -> print “four thousand three hundred and twenty one”
+
+        9. Write a program to print all permutations of a given string. This one is crazy
+        permutation(“ABC”) -> “ABC ACB BAC BCA CBA CAB”
+
+        10. Write a method to print a diamond of astercics
+        diamond(); - >
+        *
+        *
+        ***
+        *
+        *
+        11. Write a method that returns max value out of array of integers, and than Srtings.
+        int[] arr = {2,3,4};
+        max(arr) -> 4
+
+        12. You have a sentence in a String : ‘’Mom and dad in a racecar ‘’ --> find and return the biggest palindrome
+
+        and then write all possible ways how to test the function that i just did.
+        */
